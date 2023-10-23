@@ -1,0 +1,37 @@
+
+.front-page{
+    width: 400px;
+    margin:auto;
+    height: auto;
+    border:1px solid black;
+}
+.front-page>h1{
+    text-align: center;
+}
+form>.in{
+    font-family: 'Merriweather', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    margin:10px 45px;
+    padding: 5px 5px;
+    width:280px;
+    height: 20px;
+}
+#btn{
+    font-family: 'Merriweather', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    border:none;
+    background-color: #3a76d6;
+    border-radius: 5px;
+    padding:8px 70px;
+    margin:20px 95px;
+    font-size: 16px;
+    cursor: pointer;
+}

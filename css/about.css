@@ -1,0 +1,75 @@
+.about-us {
+    position: relative;
+    top: 00px;
+    height:500px;
+}
+.about-text {
+    position: absolute;
+    left: 40px;
+    width: 60%;
+    text-align: justify;
+}
+.about-text h1 {
+    font-size: 35px;
+    text-decoration: underline;
+    margin: 5px 30px;
+    padding: 5px 10px;
+}
+.about-text h2 {
+    font-size: 50px;
+    word-spacing: 3px;
+    margin: 2px 5px;
+}
+.about-text p {
+    font-size: 20px;
+    margin: 4px 5px;
+}
+.about-img {
+    position: absolute;
+    top: 75px;
+    right: 50px;
+    width: 30%;
+}
+.about-img img {
+    width: 430px;
+    height: 400px;
+}
+
+.container {
+    position: absolute;
+    top: 365px;
+    left: 40px;
+    width: 60%;
+}
+.container div {
+    float: left;
+    border: 2px solid white;
+    width: 160px;
+    height: 110px;
+    text-align: center;
+}
+.container div h1 {
+    font-size: 30px;
+    margin: 5px 5px;
+}
+
+.container div p {
+    font-size: 18px;
+    margin: 5px 5px;
+}
+.a {
+    background: rgb(43, 168, 43);
+    color: white;
+}
+.b {
+    background: rgb(76, 76, 197);
+    color: white;
+}
+.c {
+    background: rgb(177, 48, 48);
+    color: white;
+}
+.d {
+    background: rgb(173, 173, 5);
+    color: white;
+}

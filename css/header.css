@@ -1,0 +1,90 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+/* left portion Start */
+
+.header {
+    position: relative;
+    top: 0;
+    height: 50px;
+}
+.left-icon {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    cursor: pointer;
+}
+span {
+    margin: 0px 25px;
+    font-size: 16px;
+}
+
+/* left portion End */
+
+/* middle start */
+.mid-sch {
+    position: absolute;
+    right: 450px;
+    top: 5px;
+    font-size: 18px;
+}
+label{
+    font-size: 16px;
+}
+.inp{
+    width: 240px;
+    height:25px;
+}
+.sch-btn{
+    background-color: #3a76d6;
+    border:none;
+    color:white;
+    padding:5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sch-btn:hover{
+    background-color:black;
+    color:white;
+}
+/* middle End */
+
+/* right portion Start */
+
+.right-icon {
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    margin: 0px 2px;
+}
+.btn1,.btn2{
+    background-color: black;
+    border:none;
+    color:white;
+    padding:5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+   margin-right:10px;
+}
+.btn1:hover{
+    background-color: #3a76d6;
+    color:white;
+}
+.btn2:hover{
+    background-color: #3a76d6;
+    color:white;
+}
+.icon {
+    margin: 6px 3px;
+    color: black;
+}
+
+/* right portion End */

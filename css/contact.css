@@ -1,0 +1,40 @@
+.contact-us{
+    position:relative;
+    top:0px;
+    height:345px;
+    padding:40px 50px;
+    margin:0;
+    background-color: rgb(3, 3, 26);
+    color:white;
+    }
+  .contact-text{
+    font-size:20px;
+  }
+  .contact-input{
+    position:absolute;
+    right:200px;
+    top:25px;
+  }
+  .in{
+    font-size:12px;
+    padding:10px 50px;
+    margin:5px 0;
+    width: 400px;
+    border-radius: 5px;
+  }
+  input[type="submit"]{
+    font-family: 'Merriweather', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    border-style:none;
+    background-color:red;
+    color:white;
+    font-size: 18px;
+    padding:10px 20px;
+    margin:10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }

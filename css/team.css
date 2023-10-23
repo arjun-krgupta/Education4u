@@ -1,0 +1,100 @@
+.instructors{
+    position: relative;
+    top:0;
+    height:600px;
+}
+.instructors h1{
+   font-size:40px;
+   text-align: center;
+   text-decoration: underline;
+}
+.instructors-team{
+    float:left;
+    width:29%;
+    height:300;
+    padding:1%;
+    margin:1%;
+    box-shadow:5px 5px 5px 5px grey;
+    border:1px solid grey;
+    border-radius: 20px 100px;
+    background-color:#3266a8;
+    color:white;
+}
+.instructors-team:hover{
+    box-shadow:5px 5px 5px 5px red;
+    transform:scale(1.1,1.1);
+}
+.instructors-team img{
+    width:250px;
+    height:250px;
+    border-radius:50%;
+    margin:1px 70px;
+}
+.instructors-team h1{
+    font-size:24px;
+    text-align:center;
+    text-decoration: none;
+}
+.instructors-team p{
+    font-size:18px;
+    text-align:center;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-media i{
+    margin-left:10px
+}
+.testimonal{
+    position: relative;
+    top:0;
+    height:550;
+}
+.testimonal h1{
+  font-size:35px;
+  text-decoration:underline;
+  margin:10px 40px;
+ }
+.text-1{
+    width:45%;
+    padding:10px 10px;
+    margin: 5px 5px;
+}
+.text-1 h1{
+    font-size:50px;
+    margin: 8px 15px;
+    text-decoration:none;
+}
+.text-1 p{
+    font-size:20px;
+    text-align: justify;
+    margin:8px 10px;
+}
+ .text-2{
+    position:absolute;
+    right:30px;
+    top:60px;
+    width:47%;
+ }
+ .text-2 div{
+    text-align: justify;
+    font-size: 20px;
+ }
+ .text-2 h1{
+    display:inline-block;
+    text-decoration: none;
+    font-size:25px;
+    margin:18px 20px;
+ }
+ .text-2 p{
+    font-size:20px;
+    margin:-65px 135px;
+ }
+ .text-2 img{
+    vertical-align:top;
+    width:90px;
+    height:90px;
+    margin:15px 5px;
+ }
