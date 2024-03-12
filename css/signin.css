@@ -1,0 +1,67 @@
+.bg {
+    background-color: white;
+    width: 400px;
+    margin: 20px auto;
+    height: 430px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.bg>h1 {
+    text-align: center;
+    margin: 5px;
+}
+
+.tex {
+    margin: 2px 5px;
+    padding: 10px 50px;
+    border-style: none;
+    outline: none;
+    color: blue;
+    width: 200px;
+    font-size: 17px;
+}
+.user {
+    background: url(../icon/user.png) no-repeat 5px 5px;
+    background-size: 30px 28px;
+}
+.passw {
+    background: url(../icon/padlock.png) no-repeat 5px 5px;
+    background-size: 30px 28px;
+}
+#forgot {
+    text-decoration: none;
+    color: blue;
+}
+#btn-s {
+    font-family: 'Merriweather', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 10px 30px;
+    padding:6px 10px;
+    font-size: 18px;
+    background-color: #3a76d6;
+    color: white;
+    border-style: none;
+    cursor: pointer;
+}
+
+#signup {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.fav-icon {
+    position: relative;
+    top: 0px;
+    left: 150px;
+    color:blue;
+    font-size: 16px;
+}
