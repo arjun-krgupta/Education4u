@@ -1,0 +1,73 @@
+@media (max-width:768px)
+{
+    .header{
+        display: none;
+    }
+    .menu{
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 62px;
+        background:#3a76d6; 
+        z-index: 58484;
+        width: 130px;
+        height: 100vh;
+        border: 1px solid grey;
+    }
+    .menu a{
+        display: block;
+        font-size: 17px;
+        font-weight: 500;
+        color: white;
+        margin-top: 10px;
+        text-align: center;
+    }
+    #dropdown{
+        font-size: 17px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .logo>.togle{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    margin-right: 15px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    }
+    .active{
+        display: block;
+    }
+    .logo a abbr>.login{
+        display: block;
+        position: absolute;
+        right: 100px;
+        top: 15px;
+        color: white;
+        font-size: 25px;
+        cursor: pointer;
+        }
+        .bg-img{
+            width: 100%;
+            height: auto;
+        }
+        .bg-img img{
+            width: 100%;
+        }
+        .bg-text{
+            width: 100%;
+            height: auto;
+        }
+    .bg-text p{
+        font-size: 30px;
+        margin-top: -10px;
+    }
+    .bg-text h1{
+        font-size: 60px;
+    }
+    #ad-btn{
+        font-size: 30px;
+    }
+}
