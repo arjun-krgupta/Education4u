@@ -7,9 +7,9 @@
     <title>Sign-Up</title>
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/signup.css">
+   <link rel="stylesheet" href="css/responsive.css">
         <script src="https://kit.fontawesome.com/d0040ac2ba.js" crossorigin="anonymous"></script>
         <link rel="shortcut icon" href="icon/college.png" type="image/x-icon">
-       
 </head>
 <body>
     <header>
@@ -20,17 +20,13 @@
                 <span><a href="https://www.gmail.com" target="_blank"><i class="fa-solid fa-envelope icon"></i></a>
                     akarjun1050@gmail.com</span> 
             </div>
-            <div class="mid-sch">
-               <label for=""> Search </label> <input type="search" class="inp">
-                <button class="sch-btn">Search</button>
+            <div class="mid-srch">
+                <input type="text" placeholder="search...">
+                <i class="fa-solid fa-magnifying-glass"></i>
             </div>
             <div class="right-icon">
                 <a href="signin.html"><button class="btn1">Signin</button></a>
                 <a href="signup.html"><button class="btn2">Signup</button></a>
-                <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter icon"></i></a>
-                <a href="https://www.linkedin-in.com" target="_blank"><i class="fa-brands fa-linkedin-in icon"></i></a>
-                <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook icon"></i></a>
-                <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram icon"></i></a>
             </div>
         </div>
         <!-- Navbar Start -->
@@ -40,23 +36,25 @@
                 <i class="fa-solid fa-graduation-cap"></i>
                 </span> -->
                 <a href="index.html"><h1 id="logo-text">Education4U</h1></a>
+                <i class="fa-solid fa-bars togle"></i>
+                <a href="signin.html"><abbr title="Login"><i class="fa-solid fa-user login"></i></abbr>
+                </a>
             </div>
-                <ul class="menu">
-                   <li><a href="index.html">Home</a></li>
-                   <li><a href="#about">About</a></li>
-                    <li>
-                        <select id="select"> 
-                            <option value="">Course</option>
-                            <option value="">MEAN</option>
-                            <option value="">MERN</option>
-                            <option value="">Data-Science</option>
-                            <option value="">Python</option>
-                            <option value="">A.I</option>
-                        </select>
-                    </li>
-                   <li><a href="photos.html">Picture</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+             <div class="menu">
+                <a href="index.html">Home</a>
+                <a href="#about">About</a>
+                <a href="#course">
+                   <select name="" id="dropdown">
+                    <option value="">COURSE</option>
+                    <option value="">Web Design</option>
+                    <option value="">Data Analyst</option>
+                    <option value="">Graphics</option>
+                    <option value="">Full Stack</option>
+                   </select>
+                </a>
+                <a href="photos.html">Picture</a>
+                <a href="#contact">Contact</a>
+             </div>
         </nav>
     </header>
     

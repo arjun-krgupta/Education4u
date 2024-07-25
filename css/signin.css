@@ -1,4 +1,4 @@
-.bg {
+.container-login {
     background-color: white;
     width: 400px;
     margin: 20px auto;
@@ -7,7 +7,7 @@
     padding: 20px;
 }
 
-.bg>h1 {
+.container-login>h1 {
     text-align: center;
     margin: 5px;
 }
