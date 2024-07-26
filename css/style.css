@@ -160,14 +160,21 @@ span {
     font-weight: bold;
 }
 .front-text button{
-    padding: 10px 18px;
+    text-transform: uppercase;
+    width: 380px;
+    height: 80px;
     font-size: 40px;
     font-weight: bold;
+    outline: none;
     border: none;
     border-radius: 20px;
-    background-color: green;
+    background-color: #3a76d6;
     color: white;
     cursor: pointer;
+}
+.front-text button:hover{
+    background-color:white ;
+    color: #3a76d6;
 }
 
 /* loader css */
