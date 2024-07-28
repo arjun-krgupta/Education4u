@@ -212,7 +212,7 @@ span {
     text-align:justify;
 }
 .about-img {
-    width: 35%;
+    width: 30%;
 }
 .about-img img {
     width: 100%;
@@ -257,68 +257,61 @@ span {
 
 /* Choose US */
 .choose-us{
-    position:relative;
-    top:50px;
-    height:720px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
 }
 .choose-us-text{
-    position:absolute;
-    left:50px;
-    width:60%;
-    text-align: justify;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  text-align: justify;
+  gap: 10px;
 }
-.choose-us-text h1{
+.choose-us-text>h1{
     font-size:35px;
-    margin:5px 5px;
     text-decoration:underline;
 }
 .choose-us-text h2{
     font-size:50px;
-    margin:5px 5px;
 }
-.choose-us-text p{
-    font-size:18px;
-    margin:5px 5px;
+.choose-icon{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 85%;
 }
-.choose-icon h1{
-    display:inline-block;
-    text-decoration:none;
-    font-size:30px;
-    margin:0px 35px;
+.skill,.certificate,.classes{
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
-.choose-icon p{
-    margin:-28px 115px;
-    font-size:18px;
+.skill i{
+    color: pink;
+    font-size: 50px;
 }
-
-
- .blue{
-    color:blue;
-    font-size:60px;
-    margin: 30px -3px;
-    text-align: center;
+.certificate i{
+    color: yellow;
+    font-size: 50px;
 }
-.pink{
-    color:pink;
-    font-size:60px;
-    margin: 30px -3px;
-    text-align: center;
+.classes i{
+    color: blue;
+    font-size: 50px;
 }
-.yellow{
-    color:yellow;
-    font-size:60px;
-    margin: 30px -3px;
-    text-align: center;
+.skill li,.certificate li,.classes li{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
 }
-.choose-us-img img{
-    position:absolute;
-    right:50px;
-    top:25px;
+.skill h2,.certificate h2,.classes h2{
+    font-size: 30px;
+}
+.choose-img{
     width:30%;
 }
-.choose-us-img img{
-    width:420px;
-    height:530px;
+.choose-img img{
+    width:100%;
+    height:auto;
 }
 
 /* Our Courses */
