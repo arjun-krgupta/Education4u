@@ -11,12 +11,6 @@
 }
 
 /* Header */
-*{
-    margin: 0px;
-    padding: 0px;
-    text-decoration: none;
-    box-sizing: border-box;
-}
 /* left portion Start */
 
 .header {
@@ -43,7 +37,7 @@ span {
    align-items: center;
    border: 1px solid black;
    border-radius: 10px;
-   width: 200px;
+   width: 220px;
    height: 30px;
 }
 
@@ -98,6 +92,14 @@ span {
     padding: 0 50px;
     margin-bottom: 0;
 }
+.logo-icon{
+    display: flex;
+    gap: 5px;
+}
+.logo-icon>i{
+    font-size: 30px;
+    color: white;
+}
 .logo a>h1{
     color: white;
 }
@@ -114,9 +116,9 @@ span {
 }
 .menu a{
    color: white;
-   font-size: 18px;
-   font-weight: bold;
+   font-size: 16px;
    text-transform: uppercase;
+   font-weight: 550;
 }
 #dropdown{
     width: 100px;
@@ -124,20 +126,20 @@ span {
     background:#3a76d6;
     border: none;
     outline: none;
-    font-size: 18px;
-    font-weight: 550;
+    font-size: 16px;
     text-align: center;
     cursor: pointer;
+    font-weight: 550;
 }
 /* Home */
-.front-bg{
+.front{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background: url(../images/header.jpg) no-repeat;
-     background-size: 100% 100%;
-     height: 510px;
+     background-size: cover;
+     height: 540px;
 }
 .front-text {
    display: flex;
@@ -315,233 +317,271 @@ span {
 }
 
 /* Our Courses */
-.our-course{
-    position: relative;
-    top:0;
-    height:670px;
-}
-.our-text h1{
+.our-course>h1{
     font-size:30px;
     text-align:center;
     text-decoration: underline;
-    margin:35px 5px;
+    margin-top: 30px;
 }
-.our-text h2{
+.our-course>h2{
     margin:10px 5px;
     font-size:42px;
     text-align:center;
 }
-.our-course-detail{
-    margin:10px 10px;
-    float:left;
-    width:23%;
-    box-shadow:5px 5px 5px 5px grey;
-    border:1px solid grey;
+.course-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 5%;
 }
-.our-course-detail img{
-    margin:0px 2px;
-    width:306px;
-    height:320px;
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 280px; 
 }
-.our-course-detail h1{
+.card img{
+    width:100%;
+    height:auto;
+    border-radius: 5px;
+}
+.card>h1{
     font-size:20px;
     text-align: center;
 }
-.our-course-detail:hover{
-    transform:scale(1.1,1.1);
+.card:hover{
+    transform:scale(1.03);
+    transition: 0.3s;
+    text-decoration: underline;
 }
+/* offer */
 .offer{
-    position: relative;
-    top:0px;
-    height:300px;
-}
-.offer h1{
-    text-align: center;
-    font-size:40px;
-}
-.offer form{
-    display:block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    gap: 30px;
     margin: auto;
+    margin-top: 50px;
+    border: 1px solid rgb(191, 178, 178);
+    padding: 20px;
+    border-radius: 5px;
+}
+.offer .input-field{
+  display: flex;
+  gap: 20px;
+}
+.offer .input-field input{
+    width: 200px;
+    height: 30px;
+    padding-left: 15px;
+    border: none;
+    border: 1px solid black;
+    border-radius: 3px;
+    color: black;
+}
+.offer .input-field input::placeholder{
+    color: black;
+    font-size: 13px;
+}
+.selection{
+    display: flex;
+    gap: 30px;
+}
+.selection select{
+    width: 160px;
+    height: 40px;
+    background-color: #3a76d6;
+    color: white;
+    border-radius: 5px;
     text-align: center;
-    width:600px;
-    height:250px;
-    background:white;
-    border:1px solid black;
-    background:url(images/bg-image.jpg) no-repeat;
-    background-size: 100% 100%;
+    font-size: 15px;
 }
-.offer input{
-    size:30px;
-    height:35px;
-    margin:5px 10px;
-    padding:8px 45px;
-    border-radius: 8px;
+.selection a button{
+    width: 160px;
+    height: 40px;
+    background-color: #3a76d6;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
 }
-.selct{
-    padding:10px 10px 10px 6px;
-    margin:8px 21px;
-    background:#06d2e0;
-    color:white;
-    font-size:18px;
-    border:none;
-    border-radius: 10px;
-    text-align:center;
-    cursor: pointer;
-}
-
-form>a>#signup{
-    padding:10px 30px;
-    margin:8px 5px;
-    background:#06d2e0;
-    color:white;
-    font-size:18px;
-    border:none;
-    border-radius: 10px;
-    cursor: pointer;
-    }
 
     /* Mgmt Team */
-    .instructors{
-        position: relative;
-        top:0;
-        height:600px;
-    }
-    .instructors h1{
+    .instructors>h1{
+        margin-top: 50px;
        font-size:40px;
        text-align: center;
        text-decoration: underline;
     }
+    .instructor-container{
+        display: flex;
+        padding: 0 10%;
+        justify-content: space-around;
+        margin-top: 30px;
+    }
     .instructors-team{
-        float:left;
-        width:29%;
-        height:300;
-        padding:1%;
-        margin:1%;
-        box-shadow:5px 5px 5px 5px grey;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        width: 300px;
         border:1px solid grey;
-        border-radius: 20px 100px;
+        border-radius: 10px 50px;
         background-color:#3266a8;
         color:white;
+        padding: 10px;
+        cursor: pointer;
     }
     .instructors-team:hover{
-        box-shadow:5px 5px 5px 5px red;
-        transform:scale(1.1,1.1);
+        box-shadow:2px 2px 2px 2px rgb(5, 102, 155);
+        transform:scale(1.02);
+        transition: 0.3s;
     }
     .instructors-team img{
         width:250px;
         height:250px;
         border-radius:50%;
-        margin:1px 70px;
     }
-    .instructors-team h1{
+    .instructors-team>h1{
         font-size:24px;
-        text-align:center;
-        text-decoration: none;
     }
     .instructors-team p{
-        font-size:18px;
-        text-align:center;
+        font-size:16px;
     }
     .social-media{
         display: flex;
         justify-content: center;
+        gap: 10px;
         align-items: center;
     }
     .social-media i{
-        margin-left:10px
+        font-size: 20px;
     }
-    .testimonal{
-        position: relative;
-        top:0;
-        height:550;
-    }
-    .testimonal h1{
+
+    /* Testimonial  */
+    .testimonal>h1{
       font-size:35px;
       text-decoration:underline;
-      margin:10px 40px;
+      padding: 0 12%;
+      margin-top: 50px;
      }
-    .text-1{
+     .testimonial-container{
+        display: flex;
+        justify-content: space-around;
+        padding: 0 8%;
+     }
+    .testimonial-left{
         width:45%;
-        padding:10px 10px;
-        margin: 5px 5px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
     }
-    .text-1 h1{
-        font-size:50px;
-        margin: 8px 15px;
-        text-decoration:none;
+    .testimonial-left h1{
+        font-size:36px;
+        margin-top: 20px;
     }
-    .text-1 p{
-        font-size:20px;
+    .testimonial-left p{
+        font-size:18px;
         text-align: justify;
-        margin:8px 10px;
     }
-     .text-2{
-        position:absolute;
-        right:30px;
-        top:60px;
-        width:47%;
+     .testimonial-right{
+       display: flex;
+       flex-direction: column;
+       gap: 10px;
+       width: 45%;
      }
-     .text-2 div{
+     .testimonial-right p{
         text-align: justify;
-        font-size: 20px;
+        font-size: 18px;
      }
-     .text-2 h1{
-        display:inline-block;
-        text-decoration: none;
-        font-size:25px;
-        margin:18px 20px;
-     }
-     .text-2 p{
-        font-size:20px;
-        margin:-65px 135px;
-     }
-     .text-2 img{
-        vertical-align:top;
-        width:90px;
-        height:90px;
-        margin:15px 5px;
-     }
+    .testimonal-inner{
+        display: flex;
+        gap: 20px;
+        width: 400px;
+    }
+    .testimonal-inner span{
+        width: 150px;
+    }
+    .testimonal-inner img{
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+        border: 1px solid rgb(199, 189, 189);
+    }
+    .testimonal-inner-heading{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        gap: 5px;
+    }
+    .testimonal-inner-heading h1{
+        font-size: 25px;
+    }
+    .testimonal-inner-heading p{
+        font-size: 18px;
+    }
 
      /* Contact US */
      .contact-us{
-        position:relative;
-        top:0px;
-        height:345px;
-        padding:40px 50px;
-        margin:0;
         background-color: rgb(3, 3, 26);
         color:white;
+        padding: 0 11%;
+        margin-top: 20px;
+        }
+        .contact-us>h1{
+            font-size: 30px;
+           padding-top: 40px;
+        }
+        .contact-container{
+            display: flex;
+            justify-content: space-between;
         }
       .contact-text{
-        font-size:20px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 40px;
       }
-      .contact-input{
-        position:absolute;
-        right:200px;
-        top:25px;
+      .contact-text p{
+        font-size: 22px;
       }
-      .in{
+      .contact-text span{
+        font-size: 18px;
+      }
+      .contact-input form{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+      }
+      .contact-input form .in{
         font-size:12px;
-        padding:10px 50px;
-        margin:5px 0;
         width: 400px;
+        height: 40px;
+        padding-left: 15px;
         border-radius: 5px;
       }
-      input[type="submit"]{
-        font-family: 'Merriweather', serif;
-        font-family: 'Mukta', sans-serif;
-        font-family: 'Noto Serif', serif;
-        font-family: 'Poppins', sans-serif;
-        font-family: 'Roboto', sans-serif;
-        font-family: 'Roboto Slab', serif;
-        border-style:none;
+      .contact-input form .in::placeholder{
+        color: black;
+      }
+      .contact-input form textarea{
+        width: 400px;
+        height: 80px;
+        padding: 5px 10px;
+        border-radius: 5px;
+      }
+      .contact-input form input[type="submit"]{
+        border:none;
         background-color:red;
         color:white;
+        width: 120px;
+        height: 30px;
         font-size: 18px;
-        padding:10px 20px;
-        margin:10px 10px;
         border-radius: 5px;
         cursor: pointer;
+        margin-bottom: 20px;
       }
 
       /* Footer */

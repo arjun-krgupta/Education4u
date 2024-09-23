@@ -35,11 +35,11 @@
         </div>
         <!-- Navbar Start -->
         <nav class="navbar">
-            <div class="logo">
-                <!-- <span class="logo-img">
+          <div class="logo">
+            <div class="logo-icon">
                 <i class="fa-solid fa-graduation-cap"></i>
-                </span> -->
                 <a href="index.html"><h1 id="logo-text">Education4U</h1></a>
+                </div>
                 <i class="fa-solid fa-bars togle"></i>
                 <a href="signin.html"><abbr title="Login"><i class="fa-solid fa-user login"></i></abbr>
                 </a>
@@ -63,13 +63,11 @@
     </header>
         <!-- front page start -->
     <div class="front">
-        <div class="front-bg">
         <div class="front-text">
             <h2> Learn Online</h2>
             <h1>Education Course</h1>
             <button>Admission Now</button>
         </div>
-    </div>
     </div>
 
      <!-- About us Start -->
@@ -149,35 +147,37 @@
 
  <!-- Our Course start -->
     <div class="our-course">
-        <div class="our-text">
             <h1>Our Courses</h1>
             <h2>Checkout New Releases <br> of our courses</h2>
-        </div>
-        <div class="our-course-detail">
-            <img src="images/courses-1.jpg" alt="">
-            <h1>Web design</h1>
-        </div>
-        <div class="our-course-detail">
-            <img src="images/courses-2.jpg" alt="">
-            <h1> Graphics design</h1>
-        </div>
-        <div class="our-course-detail">
-            <img src="images/courses-3.jpg" alt="">
-            <h1>Software design</h1>
-        </div>
-        <div class="our-course-detail">
-            <img src="images/courses-4.jpg" alt="">
-            <h1>Artificial intelligence</h1>
+        <div class="course-container">
+            <div class="card">
+                <img src="images/courses-1.jpg" alt="">
+                <h1>Web design</h1>
+            </div>
+            <div class="card">
+                <img src="images/courses-2.jpg" alt="">
+                <h1> Graphics design</h1>
+            </div>
+            <div class="card">
+                <img src="images/courses-3.jpg" alt="">
+                <h1>Software design</h1>
+            </div>
+            <div class="card">
+                <img src="images/courses-4.jpg" alt="">
+                <h1>Artificial intelligence</h1>
+            </div>
         </div>
     </div>
 
     <!-- offer Start -->
     <div class="offer">
-        <form action="">
-            <h1>30% off for New Students</h1>
+      <h1>30% off for New Students</h1>
+        <div class="input-field">
             <input type="text" placeholder="Your Name">
-            <input type="text" placeholder="Your Email"><br><br>
-            <select class="selct">
+            <input type="text" placeholder="Your Email">
+        </div>
+        <div class="selection">
+            <select>
                 <option value="">Select a Course</option>
                 <option value="">MEAN</option>
                 <option value="">MERN</option>
@@ -185,17 +185,18 @@
                 <option value="">PYTHON</option>
                 <option value="">A.I</option>
             </select>
-            <a href="signup.html"><button type="button" id="signup">Signup</button></a>
-        </form>
+            <a href="signup.html"><button type="button">Signup</button></a>
+        </div>
     </div>
 
     <!-- Instructor Start -->
     <div class="instructors">
         <h1>Meet Our Instructors</h1>
+        <div class="instructor-container">
         <div class="instructors-team">
-            <img src="images/team-1.jpg" alt="">
+            <img src="images/pic.png" alt="">
             <h1>Arjun Gupta</h1>
-            <p>Web-Developer</p>
+            <p>Web Developer</p>
             <div class="social-media">
               <i class="fa-brands fa-facebook"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-linkedin-in"></i>
             </div>
@@ -214,36 +215,46 @@
             <p>Web-Designer</p>
             <div class="social-media">
                 <i class="fa-brands fa-facebook"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-linkedin-in"></i>
-              </div>
+            </div>
         </div>
+    </div>
     </div>
 
      <!-- testimonal Start -->
-    <div class="testimonal">
+<div class="testimonal">
         <h1>Testimonal</h1>
-        <div class="text-1">
-            <h1>What Say Our Students</h1>
-            <p>Dolor est dolores et nonumy sit labore dolores est sed rebum amet, justo duo ipsum sanctus dolore magna
-                rebum sit et. Diam lorem ea sea at. Nonumy et at at sed justo est nonumy tempor. Vero sea ea eirmod,
-                elitr ea amet diam ipsum at amet.</p>
-        </div>
-        <div class="text-2">
-            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam iste facilis ex nihil dignissimos
-                molestias soluta magni sunt deserunt, mollitia unde, obcaecati assumenda aut cumque.
-            </div>
-            <img src="images/testimonial-1.jpg" alt="">
-            <h1>Nandini Gupta</h1>
-            <p>Web-Design</p>
-        </div>
+   <div class="testimonial-container">
+    <div class="testimonial-left">
+        <h1>What Say Our Students</h1>
+        <p>Dolor est dolores et nonumy sit labore dolores est sed rebum amet, justo duo ipsum sanctus dolore magna
+            rebum sit et. Diam lorem ea sea at. Nonumy et at at sed justo est nonumy tempor. Vero sea ea eirmod,
+            elitr ea amet diam ipsum at amet.</p>
     </div>
+    <div class="testimonial-right">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam iste facilis ex nihil dignissimos
+            molestias soluta magni sunt deserunt, mollitia unde, obcaecati assumenda aut cumque.
+        </p>
+       <div class="testimonal-inner">
+         <span>
+            <img src="images/pic.png" alt="">
+         </span>
+        <div class="testimonal-inner-heading">
+            <h1>ARJUN KUMAR</h1>
+            <h4>Full Stack Developer</h4>
+        </div>
+       </div>
+    </div>
+   </div>
+</div>
 
      <!-- Contact start -->
     <div class="contact-us" id="contact">
+        <h1>Contact Me !</h1>
+       <div class="contact-container">
         <div class="contact-text">
-            <h1>Contact Us</h1>
-            <p>Get in touch with Arjun for a free onsite <br> evaluation and quote.</p><br>
-            <i class="fa-solid fa-envelope"></i> Email -akarjun1050@gmail.com. <br><br>
-            <i class="fa-solid fa-phone"></i> Arjun - 9318348275
+            <p>Get in touch with Arjun for a free onsite <br> evaluation and quote.</p>
+            <span><i class="fa-solid fa-envelope"></i> Email - akarjun1050@gmail.com</span>
+           <span> <i class="fa-solid fa-phone"></i> Arjun - 9318348275</span>
         </div>
         <div class="contact-input">
             <form action="">
@@ -251,11 +262,12 @@
                 <div id="name-error"></div>
                 <input type="email" placeholder="Your Email" class="in" id="mail">
                 <div id="mail-error"></div>
-                <textarea name="" id="address" cols="40" rows="5" class="in"> Your Message..</textarea>
+                <textarea name="" id="address" > Your Message..</textarea>
                 <div id="address-error"></div>
                 <input type="submit" value="Send" onclick="return validate()">
               </form>
         </div>
+       </div>
     </div>
 
         <footer>
