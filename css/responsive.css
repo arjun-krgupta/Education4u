@@ -1,3 +1,47 @@
+
+@media (max-width:970px)
+{
+    .front{
+        background-size: contain;
+    }
+.menu{
+    gap: 30px;
+}
+.about-us{
+    padding: 0 5%;
+   }
+}
+@media (max-width:850px)
+{
+    .navbar{
+        padding: 0 30px;
+    }
+   .menu{
+     gap: 25px;
+   }
+   .front-text h2{
+    font-size: 40px;
+   }
+   .front-text h1{
+    font-size: 50px;
+   }
+   .front-text button{
+    font-size: 25px;
+    width: 250px;
+    height: 50px;
+   }
+   .about-us{
+    gap: 30px;
+   }
+   .about-text{
+    width: 60%;
+   }
+   .about-img{
+    width: 35%;
+   }
+   
+}
+
 @media (max-width:768px)
 {
     .header{
@@ -31,7 +75,7 @@
     display: block;
     position: absolute;
     right: 0;
-    top: 10px;
+    top: 13px;
     margin-right: 15px;
     color: white;
     font-size: 30px;
@@ -49,25 +93,84 @@
         font-size: 25px;
         cursor: pointer;
         }
-        .bg-img{
-            width: 100%;
-            height: auto;
-        }
-        .bg-img img{
-            width: 100%;
-        }
-        .bg-text{
-            width: 100%;
-            height: auto;
-        }
-    .bg-text p{
-        font-size: 30px;
-        margin-top: -10px;
-    }
-    .bg-text h1{
-        font-size: 60px;
-    }
-    #ad-btn{
-        font-size: 30px;
-    }
+      .front-text{
+        margin-top: 180px; ;
+      }
+      .about-us{
+        flex-direction: column-reverse;
+        gap: 30px;
+        margin-top: -40px;
+      }
+      .about-text{
+        width: 90%;
+      }
+      .about-img{
+        width: 70%;
+      }
 }
+@media (max-width:680px)
+{
+    .front-text{
+        margin-top: 150px; ;
+      }
+      .front-text h2{
+        font-size: 32px;
+       }
+       .front-text h1{
+        font-size: 40px;
+       }
+       .front-text button{
+        font-size: 20px;
+        width: 200px;
+        height: 40px;
+       }
+}
+
+@media (max-width:550px)
+{
+    .front-text{
+        margin-top: 120px; 
+      }
+}
+@media (max-width:500px)
+{
+    .logo>.togle
+    {
+        font-size: 25px;
+        top:18px ;
+    }
+    .logo a abbr>.login
+    {
+        font-size: 20px;
+        top: 20px;
+        right: 60px;
+    }
+    .logo-icon>i{
+        font-size: 25px;
+    }
+    .logo a>h1{
+        font-size: 20px;
+    }
+    .front-text{
+        margin-top: 90px; 
+      }
+      .front-text h2{
+        font-size: 25px;
+       }
+       .front-text h1{
+        font-size: 30px;
+       }
+       .front-text button{
+        font-size: 18px;
+        width: 190px;
+        height: 35px;
+       }
+}
+@media (max-width:410px)
+{
+    .front-text{
+        margin-top: 70px;
+        gap: 5px; 
+      }
+}
+
